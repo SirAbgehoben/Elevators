@@ -1,0 +1,12 @@
+name: Test
+version: 1.0
+main: org.abgehoben.main
+api-version: 1.19
+commands:
+  map:
+    description: Displays the map URL
+    usage: /<map
+permissions:
+  map.command:
+    description: Allows use of the /map command
+    default: op
